@@ -11,28 +11,42 @@ yellow='\033[33;1m'
 
 #menampilakan menu
 
-echo -e ${yellow}
-figlet -to "Myscript"
+echo -e "${blue}"
+figlet -to "WELCOME TO A77"
 
-echo -e "${red}selamat datang di tools pertama Petrick${hapus}"
 echo "========================================="
-echo -e "${green}(1) Mau kenalan?"
-echo "(2) Mau minta no wa?"
-echo "(3) Mau tau rumah saya?"
-echo "(4) Mau tau nama pacar ku?"
-echo -e "(5) keluar${hapus}"
+echo -e "${green}(1)hack cctv"
+echo "(2)hack fb brute force"
+echo "(3)hack kamera"
+echo "(4)BAJINGANv6"
+echo "(5)MBF"
+echo "(6)spam biasa"
+echo "(7)spam unlimited"
+echo "(8)melacak lokasi"
+echo "(9)BAJINGANv5"
+echo -e "(10)Win 32DDOS ATTACK${hapus}"
 echo "========================================="
 read -p "(?)Silahkan pilih menu: " pilihan
 if [[ $pilihan = "1" ]] ;then
-echo -e "${yellow}Nama asli saya Dwi"
+  git clone https://github.com/kancotdiq/ipcs
 elif [[ $pilihan = "2" ]] ;then
-echo -e "${cyan}Nih no wa ku 082323841220${hapus}"
+  git clone https://github.com/ariyazz/crack-fb
 elif [[ $pilihan = "3" ]] ;then
-echo -e "${blue}Rumah saya ada di kecikan, jogotirto, Berbah, Sleman${hapus}" 
+  git clone https://github.com/kinghacker0/WishFish
 elif [[ $pilihan = "4" ]] ;then
-echo -e "${white}Yaitu kamu yang baru buka tools ini)"
+  git clone https://github.com/DarknessCyberTeam/BAJINGANv6.git
 elif [[ $pilihan = "5" ]] ;then
-echo -e "${purple}SEMOGA HARI MU SELALU SENANG"
+  git clone https://github.com/musjadsakirang/mbf
+elif [[ $pilihan = "6" ]] ;then
+  git clone https://github.com/MRV1RU55PM/MDSpammers
+elif [[ $pilihan = "7" ]] ;then
+  git clone https://github.com/Sxp-ID/Brutal-Wa
+elif [[ $pilihan = "8" ]] ;then
+  git clone https://github.com/wifiphishe/wifiphisher.git
+elif [[ $pilihan = "9" ]] ;then
+  git clonehttps://github.com/DarknessCyberTeam/B4J1N64Nv5
+elif [[ $pilihan = "10" ]] ;then
+  git clone https://github.com/banghyuu/ddosWD
 else
-echo "ups"
+echo "SALAH TOD_-"
 fi
